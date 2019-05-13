@@ -79,19 +79,20 @@
 
 
 
-<meta name="description" content="I love you more than I can say.">
+<meta name="description" content="#进程与线程#进程 ##进程模型进程就是一个正在执行程序的实例，包括程序计数器，寄存器和变量当前的值。一个进程是某种类型的一个活动，它有程序、输入、输出以及状态。单个处理器可以被若干进程共享，使用某种调度算法决定何时停止一个进程的工作而为另一个进程服务。 ##进程创建4种主要事件导致进程创建  系统初始化   正在运行的程序执行了创建进程的系统调用     用户请求创建一个新进程   一个批处理作">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My First Blog">
-<meta property="og:url" content="http://yoursite.com/2018/11/20/FirstBlog/index.html">
+<meta property="og:title" content="Process and Thread">
+<meta property="og:url" content="http://yoursite.com/2019/05/13/Process-and-Thread/index.html">
 <meta property="og:site_name" content="xzd的九维空间">
-<meta property="og:description" content="I love you more than I can say.">
+<meta property="og:description" content="#进程与线程#进程 ##进程模型进程就是一个正在执行程序的实例，包括程序计数器，寄存器和变量当前的值。一个进程是某种类型的一个活动，它有程序、输入、输出以及状态。单个处理器可以被若干进程共享，使用某种调度算法决定何时停止一个进程的工作而为另一个进程服务。 ##进程创建4种主要事件导致进程创建  系统初始化   正在运行的程序执行了创建进程的系统调用     用户请求创建一个新进程   一个批处理作">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://thyrsi.com/t6/611/1542677016x2890237711.jpg">
-<meta property="og:updated_time" content="2018-11-20T01:24:27.133Z">
+<meta property="og:image" content="http://thyrsi.com/t6/617/1543313761x2890211738.jpg">
+<meta property="og:image" content="http://thyrsi.com/t6/618/1543404930x2890211738.jpg">
+<meta property="og:updated_time" content="2019-05-13T12:00:14.678Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My First Blog">
-<meta name="twitter:description" content="I love you more than I can say.">
-<meta name="twitter:image" content="http://thyrsi.com/t6/611/1542677016x2890237711.jpg">
+<meta name="twitter:title" content="Process and Thread">
+<meta name="twitter:description" content="#进程与线程#进程 ##进程模型进程就是一个正在执行程序的实例，包括程序计数器，寄存器和变量当前的值。一个进程是某种类型的一个活动，它有程序、输入、输出以及状态。单个处理器可以被若干进程共享，使用某种调度算法决定何时停止一个进程的工作而为另一个进程服务。 ##进程创建4种主要事件导致进程创建  系统初始化   正在运行的程序执行了创建进程的系统调用     用户请求创建一个新进程   一个批处理作">
+<meta name="twitter:image" content="http://thyrsi.com/t6/617/1543313761x2890211738.jpg">
 
 
 
@@ -121,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/11/20/FirstBlog/">
+  <link rel="canonical" href="http://yoursite.com/2019/05/13/Process-and-Thread/">
 
 
 
 
 
-  <title>My First Blog | xzd的九维空间</title>
+  <title>Process and Thread | xzd的九维空间</title>
   
 
 
@@ -234,7 +235,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/20/FirstBlog/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/13/Process-and-Thread/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="xzd">
@@ -251,7 +252,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">My First Blog</h1>
+          <h1 class="post-title" itemprop="name headline">Process and Thread</h1>
         
 
         <div class="post-meta">
@@ -263,8 +264,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-20T08:58:26+08:00">
-                2018-11-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-13T19:59:32+08:00">
+                2019-05-13
               </time>
             
 
@@ -301,8 +302,34 @@
       
 
       
-        <blockquote>
-<p>I love you more than I can say.<br><img src="http://thyrsi.com/t6/611/1542677016x2890237711.jpg" alt="avatar"></p>
+        <h2 id="进程与线程"><a href="#进程与线程" class="headerlink" title="#进程与线程"></a>#进程与线程</h2><p>#进程</p>
+<p>##进程模型<br>进程就是一个正在执行程序的实例，包括程序计数器，寄存器和变量当前的值。<br>一个进程是某种类型的一个活动，它有程序、输入、输出以及状态。单个处理器可以被若干进程共享，使用某种调度算法决定何时停止一个进程的工作而为另一个进程服务。</p>
+<p>##进程创建<br>4种主要事件导致进程创建</p>
+<blockquote>
+<p>系统初始化  </p>
+<p>正在运行的程序执行了创建进程的系统调用    </p>
+<p>用户请求创建一个新进程  </p>
+<p>一个批处理作业的初始化</p>
+</blockquote>
+<p>##进程终止<br>通常由以下条件引起  </p>
+<blockquote>
+<p>正常退出（自愿的）</p>
+<p>出错退出（自愿的）</p>
+<p>严重错误（非自愿） </p>
+<p>被其它进程杀死（非自愿)  </p>
+</blockquote>
+<p>##进程的层次结构<br>进程有一个父进程，但是可以有多个子进程。</p>
+<p>##进程的状态</p>
+<blockquote>
+<p>1、运行态（该时刻进程实际占用CPU）<br>2、阻塞态（可运行，但因为其它进程正在运行而暂时停止）<br>3、就绪态（除非某种外部事件发生，否则进程不能运行）<br><img src="http://thyrsi.com/t6/617/1543313761x2890211738.jpg" alt="avatar">  </p>
+</blockquote>
+<p>##进程的实现<br>操作系统维护着一张进程表，每个进程占用一个表项，包括程序计数器，堆栈指针，内存分配情况，所打开的文件状态，账号，调度信息，以及其它进程由运行态转换到就绪态或阻塞态时必须保存的信息。<br><img src="http://thyrsi.com/t6/618/1543404930x2890211738.jpg" alt="avatar"></p>
+<p>##多道程序设计模型<br>采用多道程序设计有利于提高CPU的利用率<br>假设进程等待IO的时间与其停留在内存的时间之比为P，当内存中有n个进程时，所有进程等待IO概率为p^n，<br>则CPU利用率为：  <strong>1-p^n</strong>  n称为多道程序设计的道数。</p>
+<hr>
+<p>#线程</p>
+<p>##线程的使用<br>需要多线程原因：  </p>
+<blockquote>
+<p>在许多应用中同时发生着多种活动，某些活动随着时间推移会被阻塞，通过将其分解为可以准并行运行的多个顺序线程使程序设计模型更简单<br>线程比进程更加轻量级，比进程更容易创建和撤销。</p>
 </blockquote>
 
       
@@ -324,6 +351,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/11/25/进程与线程/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
@@ -372,8 +415,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -388,7 +440,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -416,6 +468,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#进程与线程"><span class="nav-number">1.</span> <span class="nav-text">#进程与线程</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -429,7 +497,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
